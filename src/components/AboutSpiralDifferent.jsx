@@ -30,7 +30,7 @@ export default function AboutSpiralDifferent() {
   ];
 
   return (
-    <div className="w-full flex justify-center bg-white">
+    <div className="w-full flex justify-center bg-white py-10">
       <div className="w-full max-w-[1440px] px-4 sm:px-6 lg:px-[79px] py-12 lg:py-[60px]">
 
         {/* Heading */}

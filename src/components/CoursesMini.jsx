@@ -21,7 +21,7 @@ const microCourses = [
 
 export default function CoursesMini() {
   return (
-    <section className="w-full py-[30px] flex justify-center">
+    <section className="w-full py-[10px] flex justify-center">
 
       {/* CONTENT CONTAINER */}
       <div className="w-full max-w-[1440px] px-[20px] md:px-[40px] lg:px-[79px]">
@@ -35,12 +35,11 @@ export default function CoursesMini() {
               fontWeight: 700,
             }}
           >
-            Micro <span className="text-[#F4B63D]">Courses</span>
+            Micro-<span className="text-[#F4B63D]">Courses</span>
           </h2>
 
           <p className="text-[#6B7280] text-[14px] mt-[10px]">
-            Short, focused courses designed for quick learning
-          </p>
+Short, focused courses that can be completed in one week or less.          </p>
         </div>
 
         {/* GRID */}
@@ -103,13 +102,13 @@ export default function CoursesMini() {
                   mt-[15px]
                   w-full
                   h-[44px]
-                  border border-[#2B4EFF]
-                  text-[#2B4EFF]
+                  border border-[#0D428E]
+                  text-[#0D428E]
                   rounded-full
                   text-[14px]
                   font-medium
                   transition-all duration-300
-                  hover:bg-[#2B4EFF] hover:text-white
+                  hover:bg-[#0D428E] hover:text-white
                 "
               >
                 View Course

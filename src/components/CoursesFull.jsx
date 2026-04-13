@@ -79,7 +79,7 @@ export default function CoursesFull() {
             </div>
 
             {/* Button */}
-            <button className="w-full border border-[#2B4EFF] text-[#2B4EFF] py-3 rounded-full text-sm font-medium hover:bg-[#2B4EFF] hover:text-white transition-all duration-300">
+            <button className="w-full border border-[#0D428E] text-[#0D428E] py-3 rounded-full text-sm font-medium hover:bg-[#0D428E] hover:text-white transition-all duration-300">
               View Course
             </button>
           </div>

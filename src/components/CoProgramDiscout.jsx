@@ -5,7 +5,7 @@ export default function CoProgramDiscount() {
     <section className="w-full flex justify-center py-12 sm:py-16 bg-[#f9fafb]">
       
       {/* CONTAINER */}
-      <div className="w-full max-w-6xl px-4 sm:px-6 lg:px-8 text-center">
+      <div className="w-full max-w-6xl px-4 sm:px-6 lg:px-8 text-center py-5">
 
         {/* HEADING */}
         <h2

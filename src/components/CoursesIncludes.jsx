@@ -38,13 +38,13 @@ export default function CourseIncludes() {
         </h2>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[20px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[20px] py-8">
           
           {data.map((item, index) => (
             <div
               key={index}
               className="
-                bg-[#EDEDED]
+                bg-[#F9FAFB]
                 rounded-[20px]
                 border border-[#E0E0E0]
                 text-center
