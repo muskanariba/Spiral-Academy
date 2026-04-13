@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base body font with safe fallbacks */
+body {
+  font-family: 'Tiempos', 'Aceh';
+  /* If Tiempos fails, Aceh will be used, then Poppins, then system sans-serif */
+}
+
+/* Tiempos Bold */
+@font-face {
+  font-family: "Tiempos";
+  src: url("/fonts/TiemposFine-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Aceh Medium */
+@font-face {
+  font-family: "Aceh";
+  src: url("/fonts/AcehSoft-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
