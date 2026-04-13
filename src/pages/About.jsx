@@ -4,7 +4,7 @@ import AboutMission from "../components/AboutMission";
 import AboutFeatureSection from "../components/AboutFeatureSection";
 import AboutSpiralDifferent from "../components/AboutSpiralDifferent";
 import AboutEducationExperience from "../components/AboutEducationExperience";
-import AboutFooter from "../components/AboutFooter";
+import Footer from "../components/Footer";
 
 export default function About() {
   return (
@@ -14,7 +14,7 @@ export default function About() {
      <AboutFeatureSection/>
      <AboutSpiralDifferent/>
      <AboutEducationExperience/>
-     <AboutFooter/>
+     <Footer/>
   
     </>
   );
