@@ -9,9 +9,12 @@ export default function AboutMission() {
         {/* LEFT TEXT SECTION */}
         <div className="w-[717px] flex flex-col gap-[28.94px]">
 
+
           {/* Heading */}
           <h2 className="font-bold text-[45.5px] leading-[50px] font-[Test_Tiempos_Fine_VF]">
-            Our Mission
+            <span className="text-black">Our </span>
+            <span className="text-[#FFD166]">Mission</span>{" "}
+            
           </h2>
 
           {/* Paragraph container */}
@@ -37,7 +40,7 @@ export default function AboutMission() {
         <div className="w-[470px] h-[516px] relative">
           
           {/* Blue background shape (like design) */}
-          <div className="absolute -right-6 -top-6 w-full h-full bg-[#0D428E] rounded-[20px]"></div>
+          <div className="absolute -left-5 -top-5 w-[200px] h-[420px] bg-[#0D428E] rounded-[20px]"></div>
 
           {/* Image */}
           <img
@@ -46,6 +49,8 @@ export default function AboutMission() {
             className="relative w-full h-full object-cover rounded-[20px]"
           />
         </div>
+
+        
 
       </div>
     </div>
