@@ -1,0 +1,57 @@
+import React from "react";
+import Vector_Line from "../assets/Vector-Line.png"
+import Co_Op from "../assets/Co-op.png"
+
+
+export default function CoProgrambanner() {
+ return (
+ <div className="w-full flex justify-center">
+ <div className="w-full max-w-[1425px] relative overflow-hidden">
+
+ {/* Background Image */}
+ <div
+ className="w-full h-[295.95px]  md:h-[320px] bg-cover bg-center bg-no-repeat"
+ style={{
+ backgroundImage: `url(${Co_Op })`,
+ }}
+ />
+
+ {/* Blue Overlay */}
+ <div className="absolute inset-0 bg-[#0D428E]/70"></div>
+
+ {/* Content */}
+ <div className="absolute inset-0 flex flex-col justify-center items-center text-white px-4">
+
+ {/* ✅ Updated Heading with Vector */}
+ <h1 className="text-[36px] md:text-[52px] font-semibold text-center leading-tight">
+ <span className="text-white">Co-Op  </span>
+
+ <span className="relative inline-block text-[#FFD166]">
+ Program
+
+ {/* Vector Underline */}
+ <img
+ src={Vector_Line}
+ alt=""
+ className="
+ absolute 
+ left-1/2 -translate-x-1/2
+ bottom-[-10px]
+ w-[110px] md:w-[150px]
+ "
+ />
+ </span>
+ </h1>
+
+ {/* Subtitle */}
+ <p className="mt-5 text-center text-[13px] md:text-[16px] max-w-[726px] leading-[22px] md:leading-[26px]">
+Build community, share resources, and create enriching group learning experiences for your
+homeschool families.
+ </p>
+
+ </div>
+
+ </div>
+ </div>
+ );
+}

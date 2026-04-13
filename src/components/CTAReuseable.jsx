@@ -8,7 +8,7 @@ export default function CTAReusable({
   bgImage,
 }) {
   return (
-    <section className="w-full bg-white mt-[80px] m-0 p-0">
+    <section className="w-full bg-white m-0 p-0">
 
       {/* FULL WIDTH BANNER */}
       <div className="relative w-full overflow-hidden">

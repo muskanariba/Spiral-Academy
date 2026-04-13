@@ -6,9 +6,11 @@ import About from "./pages/About";
 import HowItWorks from "./pages/HowItWorks";
 import Enrollment from "./pages/Enrollment";
 import StateCompliance from "./pages/StateCompliance";
-import Contact from "./pages/Contact";
+
 import Register from "./pages/Register";
 import Courses from "./pages/Courses"
+import GetInTouch from "./pages/GetInTouch";
+import CoProgram from "./pages/CoProgram";
 
 function App() {
   return (
@@ -22,8 +24,10 @@ function App() {
         <Route path="/enrollment" element={<Enrollment />} />
         <Route path="/state-compilance" element={<StateCompliance />} />
         <Route path="/courses" element={<Courses/>} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<GetInTouch />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/co-program" element={<CoProgram/>} />
+       
       </Routes>
     </BrowserRouter>
   );
