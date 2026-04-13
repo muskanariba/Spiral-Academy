@@ -11,6 +11,7 @@ import Register from "./pages/Register";
 import Courses from "./pages/Courses"
 import GetInTouch from "./pages/GetInTouch";
 import CoProgram from "./pages/CoProgram";
+import FAQ from "./pages/FAQ"
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/contact" element={<GetInTouch />} />
         <Route path="/register" element={<Register />} />
         <Route path="/co-program" element={<CoProgram/>} />
+        <Route path="/faq" element={<FAQ/>} />
        
       </Routes>
     </BrowserRouter>
