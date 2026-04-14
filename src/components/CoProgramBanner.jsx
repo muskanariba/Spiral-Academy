@@ -23,7 +23,7 @@ export default function CoProgrambanner() {
  <div className="absolute inset-0 flex flex-col justify-center items-center text-white px-4">
 
  {/* ✅ Updated Heading with Vector */}
- <h1 className="text-[36px] md:text-[52px] font-semibold text-center leading-tight">
+ <h1 className="text-[36px] md:text-[70px] font-semibold text-center leading-tight">
  <span className="text-white">Co-Op  </span>
 
  <span className="relative inline-block text-[#FFD166]">

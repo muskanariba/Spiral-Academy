@@ -23,7 +23,7 @@ export default function CoursesBanner() {
  <div className="absolute inset-0 flex flex-col justify-center items-center text-white px-4">
 
  {/* ✅ Updated Heading with Vector */}
- <h1 className="text-[36px] md:text-[52px] font-semibold text-center leading-tight">
+ <h1 className="text-[36px] md:text-[62px] font-semibold text-center leading-tight">
  <span className="text-white">Courses &  </span>
 
  <span className="relative inline-block text-[#FFD166]">

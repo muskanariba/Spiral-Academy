@@ -206,7 +206,7 @@ export default function ContactSection() {
               className="
                 w-full
                 h-[55px]
-                bg-[#F4B63D]
+                bg-[#FFD166]
                 rounded-full
                 text-[15px]
                 font-semibold

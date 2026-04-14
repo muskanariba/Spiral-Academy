@@ -1,5 +1,6 @@
 import React from "react";
 import About_banner from "../assets/About-banner.png";
+import Vector_Line from "../assets/Vector-Line.png"
 
 export default function Banner() {
   return (
@@ -32,15 +33,35 @@ export default function Banner() {
           pb-10 sm:pb-14 lg:pb-[80px]
         ">
 
-          {/* Heading */}
-          <h1 className="
-            text-center font-medium 
-            text-2xl sm:text-3xl md:text-4xl lg:text-[62.6px] 
-            leading-tight sm:leading-snug md:leading-normal lg:leading-[78.95px]
-          ">
-            <span className="text-white">About </span>
-            <span className="text-[#FFD166]">Spiral Academy</span>
-          </h1>
+
+
+
+{/* ✅ Updated Heading with Vector */}
+ <h1 className="text-[36px] md:text-[70px] font-semibold text-center leading-tight">
+ <span className="text-white">About </span>
+
+ <span className="relative inline-block text-[#FFD166]">
+ Spiral Academy
+
+ {/* Vector Underline */}
+ <img
+ src={Vector_Line}
+ alt=""
+ className="
+ absolute 
+ left-1/2 -translate-x-1/2
+ bottom-[-10px]
+ w-[110px] md:w-[150px]
+ "
+ />
+ </span>
+ </h1>
+
+
+
+
+
+
 
           {/* Paragraph */}
           <p className="

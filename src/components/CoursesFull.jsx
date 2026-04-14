@@ -41,7 +41,7 @@ export default function CoursesFull() {
             fontWeight: 700,
           }}
         >
-          Full <span className="text-[#F4B63D]">Courses</span>
+          Full <span className="text-[#FFD166]">Courses</span>
         </h2>
 
       {/* Grid */}

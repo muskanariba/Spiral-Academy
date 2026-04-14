@@ -35,7 +35,7 @@ export default function CoursesMini() {
               fontWeight: 700,
             }}
           >
-            Micro-<span className="text-[#F4B63D]">Courses</span>
+            Micro-<span className="text-[#FFD166]">Courses</span>
           </h2>
 
           <p className="text-[#6B7280] text-[14px] mt-[10px]">

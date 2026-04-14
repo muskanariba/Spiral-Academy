@@ -22,7 +22,7 @@ export default function StateCompilanceBanner() {
  <div className="absolute inset-0 flex flex-col justify-center items-center text-white px-4">
 
  {/* ✅ Updated Heading with Vector */}
- <h1 className="text-[36px] md:text-[52px] font-semibold text-center leading-tight">
+ <h1 className="text-[36px] md:text-[62.2px] font-semibold text-center leading-tight">
  <span className="text-white">State  </span>
 
  <span className="relative inline-block text-[#FFD166]">
