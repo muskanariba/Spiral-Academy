@@ -4,6 +4,7 @@ import React from "react";
 import homeBgImg from "../assets/Home-bg-img.png";
 import Vector from "../assets/Vector.png";
 import logo from "../assets/logo.png";
+import Vector_Line from "../assets/Vector-Line.png"
 
 export default function HomeSection() {
   return (
@@ -32,7 +33,6 @@ export default function HomeSection() {
           <p className="text-xs sm:text-sm mb-3 sm:mb-4 flex justify-center lg:justify-start items-center gap-2 opacity-90">
             ⭐ Trusted by 5,000+ Families
           </p>
-
           <h1 className="font-tiempos font-bold 
           text-[28px] sm:text-[40px] md:text-[52px] lg:text-[64px] xl:text-[72px] 
           leading-[1.1]">
@@ -40,15 +40,18 @@ export default function HomeSection() {
             Child’s Education <br />
             <span className="relative inline-block text-yellow-400">
               Your Way
-              <svg className="absolute left-0 -bottom-2 sm:-bottom-3 w-full" viewBox="0 0 200 20">
-                <path
-                  d="M5 15 Q100 25 195 12"
-                  stroke="#FACC15"
-                  strokeWidth="6"
-                  strokeLinecap="round"
-                />
-              </svg>
-            </span>
+             {/* Vector Underline */}
+ <img
+ src={Vector_Line}
+ alt=""
+ className="
+ absolute 
+ left-1/2 -translate-x-1/2
+ bottom-[-20px]
+ w-[150px] md:w-[341.9px]
+ "
+ />
+ </span>
           </h1>
 
           <p className="mt-5 sm:mt-6 md:mt-8 text-sm sm:text-base text-gray-200 
