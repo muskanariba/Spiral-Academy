@@ -16,7 +16,8 @@ export default function StateCompilanceBanner() {
  />
 
  {/* Blue Overlay */}
- <div className="absolute inset-0 bg-[#0D428E]/70"></div>
+  <div className="absolute inset-0 bg-[#0D428E]/70"></div>
+
 
  {/* Content */}
  <div className="absolute inset-0 flex flex-col justify-center items-center text-white px-4">

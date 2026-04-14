@@ -16,7 +16,8 @@ export default function FloridaHeroBanner() {
           />
 
           {/* Blue Overlay */}
-          <div className="absolute inset-0 bg-[#0B4DB8]/80"></div>
+           <div className="absolute inset-0 bg-[#0D428E]/70"></div>
+          
 
           {/* Content */}
           <div className="relative z-10 h-full max-w-[1425px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16 flex flex-col justify-center items-center text-center">
