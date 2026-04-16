@@ -12,6 +12,7 @@ import HowItWorks from "./pages/HowItWorks";
 import ParentPortal from "./pages/ParentPortal";
 import Enrollment from "./pages/Enrollment";
 import FloridaHomeSchool from "./pages/FolridaHomeSchool"
+import StatePage from "./pages/StatePage";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
         <Route path="/faq" element={<FAQ/>} />
         <Route path="/florida-homeschool" element={<FloridaHomeSchool />} />
         <Route path="/parent-portal" element={<ParentPortal />} />
+
+
+         <Route path="/homeschool/:state" element={<StatePage />} />
 
        
       </Routes>
