@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function CTAReusable({
   titleWhite,
@@ -66,6 +67,7 @@ export default function CTAReusable({
           </p>
 
           {/* BUTTON */}
+          <Link to = "/enrollment" >
           <button
             className="
               bg-[#FFD166] 
@@ -81,6 +83,7 @@ export default function CTAReusable({
           >
             {buttonText}
           </button>
+          </Link>
 
         </div>
       </div>

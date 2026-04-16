@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 
 export default function StatePageComp() {
   const { state } = useParams();
-  const formattedState = state?.replace(/-/g, " ");
+ const formattedState = state
+  ?.replace(/-/g, " ")
+  ?.replace(/\b\w/g, (char) => char.toUpperCase());
 
   return (
     <div className="max-w-[1440px] mx-auto bg-white">
